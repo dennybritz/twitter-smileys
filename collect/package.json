@@ -1,0 +1,16 @@
+{
+  "name": "twitter-keyword-stream",
+  "version": "1.0.0",
+  "description": "Streams data from twitter and looks for keywords. Outputs CSV.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denny Britz",
+  "license": "ISC",
+  "dependencies": {
+    "csv-stringify": "0.0.8",
+    "lodash": "^3.10.1",
+    "twit": "^2.1.1"
+  }
+}
